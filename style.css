@@ -1,0 +1,817 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    text-align: center;
+}
+nav{
+    background-color: #0181BF;
+    height: auto;
+    border-bottom: 3px solid white;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+   /* margin-left: 300px; */
+}
+.navbar li{
+    color: white;
+    margin: 20px;
+}
+
+/* banner */
+figure{
+    position: relative;
+    text-align: center;
+}
+figure img{
+   filter: brightness(50%);
+   object-fit: cover;
+   height: 95vh;
+   object-position: top;
+}
+figcaption{
+    position: absolute;
+    color: white;
+    top: 200px;
+    left: 450px;
+
+   
+}
+.p-heading{
+    font-size: 50px;
+   
+}
+.p-heading1{
+    font-size: 25px;
+    margin-top: 30px;
+}
+button{
+    margin-top: 30px;
+    color: white;
+    background: none;
+    border: 3px solid white;
+    padding: 20px;
+   
+}
+.icons{
+    margin-top: 30px;
+}
+.icons i{
+    padding: 10px;
+    font-size: 22px;
+}
+
+/* card */
+.card{
+    display: flex;
+    list-style: none;
+    color: #0181BF;
+    background-image: linear-gradient(180deg, #0181BF, white);
+   padding: 50px 200px;
+    
+}
+.card li{
+    background-color: white;
+    margin: 10px;
+    
+    
+}
+.card li img{
+    width: 150px;
+}
+.card li div{
+    margin: 40px 50px 20px 50px;
+}
+/* welcome */
+.welcome{
+    width: 100%;
+    margin-top: 80px;
+}
+.welcome .head1{
+    text-align: center;
+    color: #0181BF;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.welcome img{
+    width: 550px;
+    height: 350px;
+}
+.image{
+    width: 100%;
+}
+ .para1{
+font-size: 50px;
+text-align: center;
+
+}
+ .paragraph p{
+    text-align: justify;
+    margin: 30px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: -22px;
+}
+.button button{
+    color: #0181BF;
+    border: 2px solid #0181BF;
+    height: 38px;
+    width: 122px;
+    padding-top: 11px;
+}
+/* doctor */
+.doctor .head2{
+    text-align: center;
+    color: #0181BF;
+    font-size: 20px;
+}
+.row1{
+    display: flex;
+}
+.col1{
+    position: relative;
+    margin: 60px;
+   
+
+}
+.col1 img{
+    filter :opacity(50%);
+    border-radius: 20px;
+
+    
+}
+article{
+    position:absolute;
+    top: 60px;
+    text-align: center;
+    justify-content: center;
+    line-height: 26px;
+
+}
+.doctor-head{
+    font-size: 23px;
+
+}
+.doctor-paragraph{
+    font-size: 17px;
+}
+.col2 img{
+    margin: 160px;
+}
+
+/* logo */
+.logo-images .images-list{
+    display: flex;
+    list-style: none;
+    margin: 10px 140px;
+}
+.all-images{
+    padding: 20px;
+   
+}
+/* services */
+.services{
+    height: 500px;
+    background-image: linear-gradient(to right, rgb(177, 194, 239),rgb(247, 247, 243), rgb(177, 194, 239));
+   
+}
+.services-head{
+    text-align: center;
+    color: #0181BF;
+    font-size: 20px;
+    padding-top: 100px;
+
+}
+.services ul{
+    padding: 100px 200px 0px 200px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.services ul img{
+    width: 180px;
+}
+.services ul li p{
+    color: #0181BF;
+    text-align: center;
+}
+
+
+/* review */
+.review-head{
+    margin-top: 100px;
+    text-align: center;
+    color: #0181BF;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+
+}
+
+.review-card{
+    background-color: #0181BF;
+    width: 600px;
+    height: 100px;
+    margin-left: 500px;
+    padding: 10px;
+    display: flex;
+    color: white;
+    border-radius: 10px;
+   
+
+
+}
+.review-img img{
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 10px;
+
+}
+.star{
+    color: rgb(255, 170, 0);
+}
+.dr-review{
+    margin: 20px;
+    line-height: 20px;
+   
+
+}
+
+
+/* card review */
+.cards{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.user-review{
+    background-color: #0181BF;
+    width: 300px;
+    height: 190px;
+    padding: 10px;
+    display: flex;
+    color: white;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 19px;
+    line-height: 27px;
+    text-align: center;
+    justify-content: center;
+    padding: 45px;
+    text-align: left;
+   
+    
+}
+.user-review i{
+    color: rgb(255, 170, 0);
+}
+
+/* month */
+.month{
+    display: flex;
+    margin: 20px;
+}
+.letter{
+    background-color: violet;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+
+    
+}
+.letter p{
+    padding-top: 15px;
+}
+.name{
+    margin: 8px 0px 0px 25px;
+}
+.btn{
+   text-align: center;
+}
+.btn button{
+    background-color: black;
+    padding: 13px 60px;
+}
+
+/* insurence */
+.insurance-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.insurance{
+    text-align: center;
+    /* padding: 100px; */
+    line-height: 40px;
+    width: 100%;
+}
+.ins-head{
+    font-size: 35px;
+    color: #0181BF;
+
+}
+.apply{
+    color: #0181BF;
+    font-size: 20px;
+}
+
+/* gallery */
+.gallery ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.gallery ul li{
+    margin: 20px;
+
+}
+.gallery ul li img{
+    border-radius: 10px;
+}
+.gallery-head{
+    margin-top: 100px;
+    text-align: center;
+    color: #0181BF;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+/* footer */
+.main{
+    background-color: #0181BF;
+    padding: 20px 30px;
+    color: white;
+    display: flex;
+    line-height: 20px;
+    height: 310px;
+}
+
+.about-head{
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+}
+.about-subhead{
+    font-size: 20px;
+    margin-bottom: 15px;
+
+
+}
+
+
+/* location */
+.location{
+    margin-top: 20px;
+    text-align: center;
+}
+.loc-head{
+    font-size: 20px;
+}
+.location ul{
+    list-style: none;
+
+}
+.about{
+    display: flex;
+    
+}
+.navigation{
+    margin-left: 300px;
+    text-align: center;
+    line-height: 40px;
+}
+.navigation ul{
+    list-style: none;
+}
+.nav{
+   margin-left: 100px;
+   
+}
+
+/* second portion of footer */
+.footer2{
+    display: flex;
+    color:#0181BF;
+    font-size: 15px;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+.footer-icons{
+    display: flex; 
+}
+
+.footer-icons i{
+    padding-left: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media */
+@media only screen and (max-width: 479px){
+    /* *{
+        border: 1px solid black;
+    } */
+    .navbar{
+       flex-wrap: wrap;
+    }
+    .navbar li{
+        margin: 10px;
+    }
+    /* card */
+.card{
+    display: flex;
+    flex-wrap: wrap;
+   padding: 0px 0px;
+   justify-content: center;
+    
+}
+figcaption{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+
+
+.p-heading{
+    font-size: 25px;
+   
+}
+.p-heading1{
+    font-size: 10px;
+    /* margin-top: 10px; */
+}
+button{
+    margin-top: 10px;
+    padding: 5px;
+   
+}
+.icons{
+    margin-top: 30px;
+}
+.icons i{
+    padding: 10px;
+    font-size: 12px;
+}
+/* section2 */
+.row{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 50px;
+}
+.welcome img{
+    width: 100%;
+}
+/* section */
+.para1{
+    font-size: 20px;
+    text-align: center;
+    
+    }
+    /* section */
+    .row1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col1 img{
+        width: 470px;
+        height: 500px;
+    }
+    .col1{
+        margin: 0px;
+       
+    
+    }
+    .col2 img{
+        margin: 30px;
+    }
+    /*logos section */
+    .logo-images .images-list{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 140px;
+        justify-content: center;
+
+    }
+    .all-images{
+        padding: 0px;
+       
+    }
+/* services */
+.services{
+    height: 1500px;
+   
+}
+.services-head{
+    font-size: 20px;
+    padding-top: 50px;
+
+}
+.services ul{
+    padding: 50px 200px 0px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+   
+}
+.services ul li{
+    padding-bottom: 50px;
+}
+.services ul img{
+    width: 180px;
+}
+
+/* review */
+.review-card{
+    width: 400px;
+    height: 100px;
+    margin-left: 25px;
+    padding: 10px;
+   
+
+
+}
+/* card review */
+.cards{
+    flex-wrap: wrap;
+}
+
+/* insurance */
+.insurance-row{
+    flex-wrap: wrap;
+}
+.insurance-row .imgimg{
+    width: 100%;
+}
+
+/* gallery */
+.gallery ul{
+    flex-wrap: wrap;
+}
+
+/* footer */
+.main{
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 20px;
+    height: 910px;
+}
+.map{
+    width: 400px;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.nav{
+   margin-left: 50px;
+   
+}
+.navigation{
+    margin-left: 150px;
+    text-align: center;
+    line-height: 40px;
+}
+/* second portion of footer */
+.footer2{
+    flex-wrap: wrap;
+    height: 60px;
+    align-items: center;
+}
+.footer-icons{
+    display: flex; 
+    flex-wrap: wrap;
+   
+}
+
+.footer-icons i{
+    padding-left: 20px;
+
+}
+
+
+}
+@media only screen and (max-width: 767px){
+    .navbar{
+        flex-wrap: wrap;
+     }
+     .navbar li{
+         margin: 5px;
+     }
+     /* card */
+ .card{
+     display: flex;
+     flex-wrap: wrap;
+    padding: 0px 0px;
+    justify-content: center;
+     
+ }
+ figcaption{
+     position: absolute;
+     top: 100px;
+     left: 10px;
+ }
+ 
+ 
+ .p-heading{
+     font-size: 35px;
+    
+ }
+ .p-heading1{
+     font-size: 25px;
+     margin-top: 20px;
+ }
+ button{
+     margin-top: 30px;
+     padding: 5px;
+    
+ }
+ .icons{
+     margin-top: 30px;
+ }
+ .icons i{
+     padding: 10px;
+     font-size: 12px;
+ }
+ /* section2 */
+ .row{
+     display: flex;
+     flex-direction: column;
+     
+     margin-top: 50px;
+ }
+ .welcome img{
+     width: 100%;
+ }
+ /* section */
+ .para1{
+     font-size: 20px;
+     text-align: center;
+     
+     }
+     /*doctor section */
+     .row1{
+         display: flex;
+         flex-wrap: wrap;
+     }
+     .col1 img{
+         width: 700px;
+         height: 400px;
+         margin-top: 20px;
+     }
+     .col1{
+         margin: 0px;
+        
+     
+     }
+     .col2 img{
+         margin: 40px;
+         width: 600px;
+     }
+     /*logos section */
+     .logo-images .images-list{
+         display: flex;
+         flex-wrap: wrap;
+         margin: 10px 140px;
+         justify-content: center;
+ 
+     }
+     .all-images{
+         padding: 0px;
+        
+     }
+ /* services */
+ .services{
+     height: 1500px;
+    
+ }
+ .services-head{
+     font-size: 20px;
+     padding-top: 50px;
+ 
+ }
+ .services ul{
+     padding: 50px 200px 0px 200px;
+     display: flex;
+     flex-wrap: wrap;
+     list-style: none;
+     justify-content: center;
+    
+ }
+ .services ul li{
+     padding-bottom: 50px;
+ }
+ .services ul img{
+     width: 180px;
+ }
+ 
+ /* review */
+ .review-card{
+     width: 400px;
+     height: 100px;
+     margin-left: 30px;
+     padding: 10px;
+ }
+ /* card review */
+ .cards{
+     flex-wrap: wrap;
+ }
+ 
+ /* insurance */
+ .insurance-row{
+     flex-wrap: wrap;
+ }
+ .insurance-row .imgimg{
+     width: 100%;
+ }
+ 
+ /* gallery */
+ .gallery ul{
+     flex-wrap: wrap;
+ }
+ 
+ /* footer */
+ .main{
+     padding: 20px 20px;
+     display: flex;
+     flex-wrap: wrap;
+     line-height: 20px;
+     height: 630px;
+     
+ }
+
+ .map{
+     width: 420px;
+ }
+ .about{
+     display: flex;
+     flex-wrap: wrap;
+    
+     
+ }
+ .nav{
+    margin-left: 50px;
+    
+ }
+ .navigation{
+     margin-left: 150px;
+     text-align: center;
+     line-height: 50px;
+ }
+ /* second portion of footer */
+ .footer2{
+     flex-wrap: wrap;
+     height: 60px;
+     align-items: center;
+ }
+ .footer-icons{
+     display: flex; 
+     flex-wrap: wrap;
+    
+ }
+ 
+ .footer-icons i{
+     padding-left: 20px;
+ 
+ }
+
+
+}
+
+
+
